@@ -2,11 +2,14 @@
     display: flex;
     flex-direction: row;
     position: fixed;
-    z-index: 999;
+    top: 0;
+    z-index: 1;
     background-color: white;
     width: 100%;
-    height: 40px;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    height: 60px;
+    box-shadow: 1px 20px 31px -16px rgba(0,0,0,0.64);
+-webkit-box-shadow: 1px 20px 31px -16px rgba(0,0,0,0.64);
+-moz-box-shadow: 1px 20px 31px -16px rgba(0,0,0,0.64);
 }
 
 .menu-bar-logo {
@@ -15,32 +18,38 @@
     align-items: center;
 }
 
-.menu-bar-item {
+.menu-bar-container .container-social-icons {
     display: flex;
     margin: auto;
     align-items: center;
 }
 
-.menu-bar-item > ul {
+.menu-bar-container .container-social-icons > ul {
+
     display: flex;
     flex-direction: row;
-    text-decoration: none;
-    list-style-type: none;
+    justify-content: center;
+    margin-right: 11rem;
 }
 
-.menu-bar-item > ul > li {
-    padding: 5px;
-    margin-right: 15px;
+
+
+.menu-bar-container .container-social-icons > ul > li {
+    list-style: none;
+    align-items: center;
 }
 
-.menu-bar-item > ul > li > a {
-    text-decoration: none;
-    padding: 5px;
-    color: rgb(63, 63, 63);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.icon {
+    height: 1.6rem;
+    position: relative;
+    display: inline-block;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    filter: grayscale(100%);
+    transition: filter 0.3s, transform 0.3s;
 }
 
-.menu-bar-item > ul > li > a:hover {
-    color: black;
-    font-weight: 600;
-} 
+.icon:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}

@@ -1,27 +1,56 @@
-# Store
+# Trilha Angular - PSN Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+<p align="center">
+  <img alt="PSN LOGO" src="./src/assets/images/ps-logo.png" width="400px" />
+</p>
 
-## Development server
+<p align="center" fontSize="60px">
+  Uma plataforma para blog pessoal
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+  <img alt="Layout da aplicação" width="100%" src="./src/assets/images/Tela PSN STORE - Project.png" />
+</p>
 
-## Code scaffolding
+## 💻 Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Um projeto baseado na PSN Store onde trabalhamos conceitos de uma aplicação Angular
 
-## Build
+### Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [x] **Menu Suspenso**: Menu feito com CSS ao qual fica travado na parte superior da página.
 
-## Running unit tests
+- [x] **Efeito nos ícones de rede social**: Efeito ao passar o mouse em cima dos ícones.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [x] **Animação dos cards**: Animação básica dos cards ao passar o mouse
 
-## Running end-to-end tests
+- [x] **Footer**: Criação de um footer com uma animação básica. 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Aprimoramentos em desenvolvimento
 
-## Further help
+- [ ] **Modo Escuro**: Funcionalidade para alterar as cores da página. 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [ ] **Implementação das rotas**: Implementar rotas para páginas dos conteúdos
+
+### Conceitos abordados
+
+- Uso de flexbox para alinhar e ajustar elementos na página.
+
+- Manipulação de elementos para criação das animações.
+
+- Utilização de componentes para compor uma aplicação.
+
+- Implementação de páginas dinâmicas utilizando TypeScript e o Angular
+
+- Refatoração de componentes.
+
+### Notas
+
+- Ainda em fase de desenvolvimento, novas funcionalidades e otimização do código em breve.
+
+## :rocket: Tecnologias
+
+-  [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+-  [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+-  [Angular](https://angular.io/)
+-  [TypeScript](https://www.typescriptlang.org/pt/docs/)

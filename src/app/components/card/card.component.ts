@@ -12,9 +12,9 @@ export class CardComponent implements OnInit {
   @Input()
   gameLabel:string = ""
   @Input()
-  gameType:string = "Digital PS4"
+  gameType:string = ""
   @Input()
-  gamePrice:String = "R$ 399,900"
+  gamePrice:String = ""
   
   constructor() { }
 
